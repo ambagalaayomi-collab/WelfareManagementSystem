@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="22dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:orientation="vertical"
+            android:background="#2E7D32"
+            android:paddingStart="22dp"
+            android:paddingTop="32dp">
+
+            <TextView
+                android:text="SMS Reminder"
+                android:textColor="#FFFFFF"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="Send meeting reminder SMS"
+                android:textColor="#E8F5E9"
+                android:textSize="12sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <Spinner
+            android:id="@+id/spinnerMeeting"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="30dp"
+            android:textColor="#000000"
+            android:background="@drawable/input_box" />
+
+        <EditText
+            android:id="@+id/edtPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="18dp"
+            android:hint="Phone number"
+            android:inputType="phone"
+            android:padding="16dp"
+            android:textColor="#000000"
+            android:background="@drawable/input_box" />
+
+        <TextView
+            android:id="@+id/txtMessagePreview"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/white_card"
+            android:padding="18dp"
+            android:text="Message Preview"
+            android:textColor="#222222"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnSendSms"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="34dp"
+            android:text="SEND SMS"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#2E7D32" />
+
+        <TextView
+            android:text="SMS app will open with the reminder message"
+            android:textColor="#777777"
+            android:textSize="11sp"
+            android:gravity="center"
+            android:layout_marginTop="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#F5F5F5"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:gravity="center"
+        android:text="W"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:background="@drawable/circle_green" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welfare Society"
+        android:textColor="#222222"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginTop="26dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Membership Management"
+        android:textColor="#777777"
+        android:textSize="12sp"
+        android:layout_marginTop="4dp" />
+
+    <Button
+        android:id="@+id/btnGetStarted"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="Get Started"
+        android:textColor="@android:color/white"
+        android:textAllCaps="false"
+        android:backgroundTint="#2E7D32"
+        android:layout_marginTop="160dp" />
+
+</LinearLayout>
